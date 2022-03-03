@@ -1,0 +1,104 @@
+.App {
+  font-family: Georgia, Times, serif;
+  text-align: center;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+ul li a strong {
+  margin-right: 10px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+#banner {
+  background-color: #0074d9;
+  text-align: left !important;
+  width: 100%;
+  color: #ddd;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  font-size: 25px;
+}
+
+#search_input {
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 70%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#movie_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#movie_list li a {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #e7e6e6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block;
+}
+
+#movie_list li a:hover:not(.header) {
+  background-color: #eee;
+}
+
+.page_buttons {
+  text-align: right;
+  margin-top: 20px;
+}
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  color: black;
+  background-color: #f1f1f1;
+}
+
+.round {
+  border-radius: 50%;
+  margin-left: 10px;
+  font-size: 30px;
+  width: 40px;
+  height: 40px;
+}
+
+#movie_detail {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  background-color: #bdbdbd;
+  border-style: inset;
+  border-radius: 15px;
+}
+#movie_detail table {
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+#movie_detail table tr {
+  border-style: solid;
+  border-radius: 15px;
+}
